@@ -27,5 +27,23 @@ module.exports = [
 			file: 'dist/modern-images-loaded.umd.min.js'
 		},
 		plugins: [buble(), terser()]
+	},
+	{
+		input: 'src/index.js',
+		output: {
+			format: 'esm',
+			name: 'modernImagesLoaded',
+			file: 'dist/modern-images-loaded.esm.js'
+		},
+		plugins: [buble()]
+	},
+	{
+		input: 'src/index.js',
+		output: {
+			format: 'esm',
+			name: 'modernImagesLoaded',
+			file: 'dist/modern-images-loaded.esm.min.js'
+		},
+		plugins: [buble(), terser()]
 	}
 ];

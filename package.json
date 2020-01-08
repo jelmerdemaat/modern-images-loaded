@@ -2,7 +2,7 @@
 	"name": "modern-images-loaded",
 	"version": "0.1.1",
 	"description": "Check if images are loaded, in a modern way",
-	"module": "src/index.js",
+	"module": "dist/modern-images-loaded.esm.js",
 	"main": "dist/modern-images-loaded.cjs.js",
 	"unpkg": "dist/modern-images-loaded.umd.js",
 	"files": [
@@ -12,7 +12,8 @@
 	"scripts": {
 		"dev": "rollup -c -w",
 		"build": "rollup -c",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepack": "npm run build"
 	},
 	"keywords": [
 		"images",
