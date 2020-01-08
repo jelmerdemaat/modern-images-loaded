@@ -1,6 +1,6 @@
 {
 	"name": "modern-images-loaded",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Check if images are loaded, in a modern way",
 	"module": "src/index.js",
 	"main": "dist/modern-images-loaded.cjs.js",
