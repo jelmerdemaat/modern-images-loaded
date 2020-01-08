@@ -2,7 +2,7 @@
 	"name": "modern-images-loaded",
 	"version": "0.1.0",
 	"description": "Check if images are loaded, in a modern way",
-	"module": "index.js",
+	"module": "src/index.js",
 	"main": "dist/modern-images-loaded.cjs.js",
 	"unpkg": "dist/modern-images-loaded.umd.js",
 	"files": [
