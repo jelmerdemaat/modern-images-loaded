@@ -6,6 +6,7 @@
 	"main": "dist/modern-images-loaded.cjs.js",
 	"unpkg": "dist/modern-images-loaded.umd.js",
 	"files": [
+		"src/",
 		"dist/"
 	],
 	"scripts": {
