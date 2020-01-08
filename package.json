@@ -1,0 +1,30 @@
+{
+	"name": "modern-images-loaded",
+	"version": "0.1.0",
+	"description": "Check if images are loaded, in a modern way",
+	"module": "index.js",
+	"main": "dist/modern-images-loaded.cjs.js",
+	"unpkg": "dist/modern-images-loaded.umd.js",
+	"files": [
+		"dist/"
+	],
+	"scripts": {
+		"dev": "rollup -c -w",
+		"build": "rollup -c",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"images",
+		"imgs",
+		"img",
+		"loaded",
+		"loading"
+	],
+	"author": "Jelmer de Maat",
+	"license": "MIT",
+	"devDependencies": {
+		"@rollup/plugin-buble": "^0.21.0",
+		"rollup": "^1.29.0",
+		"rollup-plugin-terser": "^5.1.3"
+	}
+}
